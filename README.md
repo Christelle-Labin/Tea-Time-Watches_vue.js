@@ -8,7 +8,7 @@ Il s'agit d'une page web statique développée comme un projet personnel. L'acce
 
 - **Design Entièrement Responsive** : Que vous soyez sur mobile, tablette ou ordinateur, le design s'adapte pour une navigation fluide et esthétique.
 - **Code Propre et Structuré** : Le code source a été organisé en composants Vue réutilisables, en suivant les meilleures pratiques pour garantir sa lisibilité et sa maintenance.
-- **Déploiement Continu** : Le projet est hébergé et déployé sur la plateforme Netlify.
+- **Déploiement Continu** : Le projet est hébergé et déployé sur la plateforme Netlify [project-zalando-vuejs]([https://project-zalando-vuejs.netlify.app/](https://tea-time-watches-lc.netlify.app/)
 
 ## 🧐 Steps
 
@@ -30,6 +30,7 @@ Le projet a été construit en suivant un flux de travail logique, de la concept
 - **CSS3** : Stylisation avancée, animations et responsive design.
 - **Vue.js (v3)** : Framework JavaScript progressif pour la construction de l'interface utilisateur.
 - **Adobe Photoshop & Illustrator** : Création des maquettes (mockups) et des visuels.
+- **GitHub** : Suivi de version et déploiement via repository distant. [Tea-Time-Watches_vue.js](https://github.com/Christelle-Labin/Tea-Time-Watches_vue.js)
 
 ## ⛔ License et Utilisation
 
