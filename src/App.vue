@@ -9,6 +9,21 @@ import AppFooter from './components/AppFooter.vue'
 import AppGeneralContentSection from './components/AppGeneralContentSection.vue'
 import AppImageTextSection from './components/AppImageTextSection.vue'
 
+// IMPORTS D'IMAGES :
+// Pour Section 2
+import imgWomanGym from './src/assets/pictures/Woman-gym_h786px.jpeg'
+import imgHaltereMan from './src/assets/pictures/haltere-man_AS_407452902_h786px.png'
+import imgMediumS2 from './src/assets/pictures/Smartphone-smartwatch_v2_AStock_1346301982.png'
+
+// Pour Section 3
+import imgBusinessCouple from './src/assets/pictures/business-man-and-business-woman_AStock_300055308_h786px.jpeg'
+import imgBusinessman from './src/assets/pictures/businessman_AStock_1373383564_h786px.jpeg'
+// imgMediumS3 est la même que S2, donc réutilisation
+
+// Pour Section 7
+import imgWomanSleep from './src/assets/pictures/woman-sleep_AStock_849243561_h786px.jpeg'
+import imgWomanYoga from './src/assets/pictures/woman-yoga_AStock_236453770_h786px.jpeg'
+
 const isSidebarOpen = ref(false)
 const toggleSidebar = () => {
   isSidebarOpen.value = !isSidebarOpen.value
@@ -71,13 +86,12 @@ const cardData = [
     <!-- Section-2 utilise AppImageTextSection -->
     <AppImageTextSection
       class="section-2-custom"
-      :imgLeftSrc="'./src/assets/pictures/Woman-gym_h786px.jpeg'"
-      :imgLeftAlt="'woman gym'"
-      :imgRightSrc="'./src/assets/pictures/haltere-man_AS_407452902_h786px.png'"
-      :imgRightAlt="'haltere man'"
+      :imgLeftSrc="imgWomanGym"
+      :imgRightSrc="imgHaltereMan"
+      :imgMediumSrc="imgMediumS2"
       :hasMediumImage="true"
-      :imgMediumSrc="'./src/assets/pictures/Smartphone-smartwatch_v2_AStock_1346301982.png'"
-      :imgMediumAlt="'image-smartwatch-medium'"
+      :imgLeftAlt="'woman gym'"
+      :imgRightAlt="'haltere man'"
       :mediumImagePositionClass="'pos-section-2'"
       :reverseImagesOrder="false"
       subtitle="BIEN-ÊTRE"
@@ -88,15 +102,12 @@ const cardData = [
     <!-- Section 3 utilisant AppImageTextSection (avec inversion et styles spécifiques) -->
     <AppImageTextSection
       class="section-3-custom"
-      :imgLeftSrc="'./src/assets/pictures/business-man-and-business-woman_AStock_300055308_h786px.jpeg'"
-      :imgLeftAlt="'business man and business woman'"
-      :imgRightSrc="'./src/assets/pictures/businessman_AStock_1373383564_h786px.jpeg'"
-      :imgRightAlt="'businessman'"
+      :imgLeftSrc="imgBusinessCouple"
+      :imgRightSrc="imgBusinessman"
+      :imgMediumSrc="imgMediumS2"
       :reverse-layout="true"
       textContentAlignmentClass="align-right"
       :hasMediumImage="true"
-      :imgMediumSrc="'./src/assets/pictures/Smartphone-smartwatch_v2_AStock_1346301982.png'"
-      :imgMediumAlt="'image-smartwatch-medium'"
       :mediumImagePositionClass="'pos-section-3'"
       :reverseLayout="true"
       :reverseImagesOrder="true"
@@ -184,10 +195,8 @@ const cardData = [
     <!-- Section 7 utilisant AppImageTextSection -->
     <AppImageTextSection
       class="section-7-custom"
-      :imgLeftSrc="'./src/assets/pictures/woman-sleep_AStock_849243561_h786px.jpeg'"
-      :imgLeftAlt="'woman sleep'"
-      :imgRightSrc="'./src/assets/pictures/woman-yoga_AStock_236453770_h786px.jpeg'"
-      :imgRightAlt="'woman yoga'"
+      :imgLeftSrc="imgWomanSleep"
+      :imgRightSrc="imgWomanYoga"
       :hasMediumImage="false"
       subtitle="HARMONIE ET VITALITÉ"
       main-text="Équilibre parfait, santé maîtrisée"
