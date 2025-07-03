@@ -1,0 +1,76 @@
+@import './base.css';
+@import url('https://use.typekit.net/vjq5fbu.css');
+
+/* ------- FONTS ------- */
+/* Big Moore Regular*/
+@font-face {
+  font-family: 'bigmoore';
+  src:
+    url('https://use.typekit.net/af/31a4f7/0000000000000000774a6730/31/l?subset_id=2&fvd=n4&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/31a4f7/0000000000000000774a6730/31/d?subset_id=2&fvd=n4&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/31a4f7/0000000000000000774a6730/31/a?subset_id=2&fvd=n4&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+/* Big Moore Italic */
+@font-face {
+  src: url('https://use.typekit.net/vjq5fbu.css');
+  font-family: 'bigmoore', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* ------- BLUE PURPLE THEME ------- */
+:root {
+  --color-full-white: white;
+  --color-full-black: #000;
+  --color-full-gray-very-light: #f5f5f5;
+  --color-full-light-gray: #eee;
+  --color-full-gray: #ccc;
+  --color-bg-linear-gradient: linear-gradient(
+    100deg,
+    #31136f 0%,
+    #320d5d 40%,
+    #3f065c 60%,
+    #570054 90%
+  );
+  --color-bg-card: #2e0344;
+  --color-ttwatches-medium-yellow: #c3922f;
+  --color-ttwatches-strong-yellow: #f4a300;
+  --transition: all 400ms ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  min-height: 100vh;
+  background: var(--color-bg-linear-gradient);
+}
+body {
+  margin: 0 auto;
+  background: transparent;
+  color: var(--color-full-light-gray);
+  font-size: 100%;
+  font-family: 'bigmoore', serif;
+  font-weight: 400;
+  font-style: italic;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+  width: 100%;
+  height: 100vh;
+  min-height: 100%;
+  cursor: default;
+}
