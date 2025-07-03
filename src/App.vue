@@ -11,18 +11,17 @@ import AppImageTextSection from './components/AppImageTextSection.vue'
 
 // IMPORTS D'IMAGES :
 // Pour Section 2
-import imgWomanGym from './src/assets/pictures/Woman-gym_h786px.jpeg'
-import imgHaltereMan from './src/assets/pictures/haltere-man_AS_407452902_h786px.png'
-import imgMediumS2 from './src/assets/pictures/Smartphone-smartwatch_v2_AStock_1346301982.png'
+import imgWomanGym from './assets/pictures/Woman-gym_h786px.jpeg'
+import imgHaltereMan from './assets/pictures/haltere-man_AS_407452902_h786px.png'
+import imgMediumS2 from './assets/pictures/Smartphone-smartwatch_v2_AStock_1346301982.png'
 
 // Pour Section 3
-import imgBusinessCouple from './src/assets/pictures/business-man-and-business-woman_AStock_300055308_h786px.jpeg'
-import imgBusinessman from './src/assets/pictures/businessman_AStock_1373383564_h786px.jpeg'
-// imgMediumS3 est la même que S2, donc réutilisation
+import imgBusinessCouple from './assets/pictures/business-man-and-business-woman_AStock_300055308_h786px.jpeg'
+import imgBusinessman from './assets/pictures/businessman_AStock_1373383564_h786px.jpeg'
 
 // Pour Section 7
-import imgWomanSleep from './src/assets/pictures/woman-sleep_AStock_849243561_h786px.jpeg'
-import imgWomanYoga from './src/assets/pictures/woman-yoga_AStock_236453770_h786px.jpeg'
+import imgWomanSleep from './assets/pictures/woman-sleep_AStock_849243561_h786px.jpeg'
+import imgWomanYoga from './assets/pictures/woman-yoga_AStock_236453770_h786px.jpeg'
 
 const isSidebarOpen = ref(false)
 const toggleSidebar = () => {
