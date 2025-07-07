@@ -8,7 +8,7 @@ Il s'agit d'une page web statique développée comme un projet personnel. L'acce
 
 - **Design Entièrement Responsive** : Que vous soyez sur mobile, tablette ou ordinateur, le design s'adapte pour une navigation fluide et esthétique.
 - **Code Propre et Structuré** : Le code source a été organisé en composants Vue réutilisables, en suivant les meilleures pratiques pour garantir sa lisibilité et sa maintenance.
-- **Déploiement Continu** : Le projet est hébergé et déployé sur la plateforme Netlify [Tea-Time-Watches](https://tea-time-watches-lc.netlify.app/)
+- **Déploiement Continu** : Le projet est hébergé et déployé sur la plateforme Netlify [Tea-Time-Watches](https://tea-time-watches-lc.netlify.app)
 
 ## 🧐 Steps
 
